@@ -1,0 +1,8 @@
+<suite name="GMAIL">
+ <test name="gmail">
+ <parameter name="browser" value="1"/>
+ <classes>
+ <class name="testcase.Signup" />
+ </classes>
+ </test>
+</suite>

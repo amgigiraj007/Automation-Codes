@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="GMAIL" duration-ms="31689" started-at="2020-01-21T06:25:16Z" finished-at="2020-01-21T06:25:48Z">
+    <groups>
+    </groups>
+    <test name="gmail" duration-ms="31689" started-at="2020-01-21T06:25:16Z" finished-at="2020-01-21T06:25:48Z">
+      <class name="testcase.Signup">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.Signup@56f4468b]" name="setUp" is-config="true" duration-ms="11796" started-at="2020-01-21T11:55:16Z" finished-at="2020-01-21T11:55:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcase.Signup.LoginNovica() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LoginNovica()[pri:0, instance:testcase.Signup@56f4468b]" name="LoginNovica" duration-ms="18688" started-at="2020-01-21T11:55:28Z" finished-at="2020-01-21T11:55:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginNovica -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.Signup@56f4468b]" name="tearDown" is-config="true" duration-ms="1184" started-at="2020-01-21T11:55:47Z" finished-at="2020-01-21T11:55:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginNovica status=SUCCESS method=Signup.LoginNovica()[pri:0, instance:testcase.Signup@56f4468b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:testcase.Signup@56f4468b]" name="endTest" is-config="true" duration-ms="0" started-at="2020-01-21T11:55:48Z" finished-at="2020-01-21T11:55:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- testcase.Signup -->
+    </test> <!-- gmail -->
+  </suite> <!-- GMAIL -->
+</testng-results>

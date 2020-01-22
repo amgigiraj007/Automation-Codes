@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [GMAIL]">
+  <test name="gmail(failed)">
+    <classes>
+      <class name="testcase.Signup">
+        <methods>
+          <include name="endTest"/>
+          <include name="LoginNovica"/>
+        </methods>
+      </class> <!-- testcase.Signup -->
+    </classes>
+  </test> <!-- gmail(failed) -->
+</suite> <!-- Failed suite [GMAIL] -->
