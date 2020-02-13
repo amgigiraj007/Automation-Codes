@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation]">
+  <parameter name="browser" value="1"/>
+  <test name="Cart-CH(failed)">
+    <parameter name="browser" value="1"/>
+    <classes>
+      <class name="testcase.CriticalPathFlow">
+        <methods>
+          <include name="tearDown"/>
+          <include name="endTest"/>
+          <include name="typeandsearch" invocation-numbers="0"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testcase.CriticalPathFlow -->
+      <class name="testcase.Wishlist">
+        <methods>
+          <include name="WishlisttocartUsingExpress"/>
+          <include name="tearDown"/>
+          <include name="WishlisttocartUsingGuest"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="WishlisttocartDiffShipAddress"/>
+        </methods>
+      </class> <!-- testcase.Wishlist -->
+      <class name="testcase.Homepage">
+        <methods>
+          <include name="headerMenu"/>
+          <include name="tearDown"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testcase.Homepage -->
+      <class name="testcase.InspiredGifts">
+        <methods>
+          <include name="tearDown"/>
+          <include name="guestCheckOutIGgift"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+          <include name="expressCheckOutIGgift"/>
+        </methods>
+      </class> <!-- testcase.InspiredGifts -->
+    </classes>
+  </test> <!-- Cart-CH(failed) -->
+</suite> <!-- Failed suite [Automation] -->

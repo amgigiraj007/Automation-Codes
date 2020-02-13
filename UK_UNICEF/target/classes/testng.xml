@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ <test name="Cart-CH">
+ <parameter name="browser" value="1"/>
+ <classes>
+ 
+<class name="testcases.CrticalPathFlow"/>
+<class name="testcases.InspiredGifts"/>
+<class name="testcases.Wishlist"/>
+
+   
+ </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
